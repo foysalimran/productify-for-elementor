@@ -17,8 +17,8 @@ module.exports = function( grunt ) {
             },
             target: {
                 files: {
-                    '<%= dirs.dist %>/css/public.min.css': [
-                        '<%= dirs.source %>/css/public.css'
+                    '<%= dirs.dist %>/css/productify.main.min.css': [
+                        '<%= dirs.source %>/css/productify.main.css'
                     ],
 
                     '<%= dirs.dist %>/css/postify.main.min.css': [
@@ -36,8 +36,8 @@ module.exports = function( grunt ) {
             },
             my_target: {
                 files: {
-                    '<%= dirs.dist %>/js/public.min.js': [
-                        '<%= dirs.source %>/js/public.js'
+                    '<%= dirs.dist %>/js/productify.main.min.js': [
+                        '<%= dirs.source %>/js/productify.main.js'
                     ],
                     '<%= dirs.dist %>/js/postify.main.min.js': [
                         '<%= dirs.source %>/js/postify.main.js'
